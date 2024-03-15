@@ -10,22 +10,131 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   background-color: #ffefef;
-  display: flex;
-  justify-content: center;
-}
 
-
-.nabidka {
-  background-color: #ffffff;
-
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero img {
+  width: 20%;
+}
+
+.hero p {
+  font-size: 8px;
+  text-align: center;
+
+}
+
+.nabidka {
+  background-color: #ffffff;
+  width: 70rem;
+  margin: auto;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/*----nebidka text-----*/
+.nabidka-text
+
+/*----galerie---*/
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image {
+  height: 250px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*----texty-----*/
+.uvod {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.paragraph {
+  flex-basis: 40%;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+/*-----menu karticky-----*/
+
+.obrazek-jidlo img {
+  height: 400px;
+}
+
+.karta {
+  display: flex;
+}
+
+.text-karty {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 2rem;
+}
+
+.popis-jidla {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  width: 400px;
+}
+
+.tagliatelle {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.text-tagliatelle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-right: 2rem;
+}
+
+.popis-tagliatelle {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: right;
+  width: 400px;
+}
+
+
+button {
+  border: none;
+  background-color: #ffefef;
+  padding: 1rem;
+  width: fit-content;
+}
+
+
+
+
+
+footer {
+  margin: 2rem;
+  font-size: 8px;
+  text-align: center;
 }
